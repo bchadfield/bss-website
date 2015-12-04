@@ -1,0 +1,65 @@
+body.csw-home .csw-content-header { background-color: #f3f3f4; }
+.csw-home-hero { text-align: center; color: #fff; }
+.csw-home-hero h1 { margin: 1rem 0; background-color: rgb(200,0,0); }
+.csw-home-hero h2 { background-color: rgb(52,144,52); font-style: italic; margin:0; }
+.csw-home-hero p.csw-sub-assist { background-color: #464646; }
+.csw-home-hero p.csw-sub-assist a { color: #fff; }
+.csw-home-hero .csw-button { font-size: 1rem; padding: 0.75rem 2rem; margin: 0; }
+.csw-home-hero .csw-home-more { display: none; }
+.csw-home-section, .csw-section { margin-bottom: 3rem; }
+.csw-home-section > .row { background-color: #fff;}
+.csw-home-section-green { background-color: rgba(52,144,52,0.3); }
+.csw-home-section-red { background-color: rgba(200,0,0,0.3); }
+.csw-home-content { padding-top: 2rem; padding-bottom: 3rem; }
+.csw-item-row .user-name { font-weight: bold; }
+.user.playing .playing-status,
+.user.available .playing-status,
+.user.gave_gift .playing-status { color: #5cb85c; }
+.user.playing .csw-avatar,
+.user.available .csw-avatar,
+.user.gave_gift .csw-avatar { border-color: #5cb85c;}
+.user.waiting .playing-status { color: #5bc0de; }
+.user.waiting .csw-avatar { border-color: #5bc0de; }
+.user.unavailable .playing-status,
+.user.no_gift_given .playing-status { color: #f0ad4e; }
+.user.unavailable .csw-avatar,
+.user.no_gift_given .csw-avatar { border-color: #f0ad4e; }
+.user.incomplete .playing-status { color: #999; }
+.user.incomplete .csw-avatar { border-color: #999; }
+.user-summaries { padding-bottom: 2rem; }
+.user-summaries .user-summary { color: #f3f3f4; font-weight: 200; display: block; overflow: hidden; padding: 10px; margin-bottom: 5px}
+.user-summaries .user-summary.total, .label.total { color: #888; background-color: #fff; border: 1px solid #ccc; }
+.user-summaries .user-summary.total { padding: 10px 9px 8px 10px; }
+.user-summaries .user-summary.playing,
+.user-summaries .user-summary.available,
+.user-summaries .user-summary.gave_gift { background-color: #5cb85c; }
+.user-summaries .user-summary.waiting_list,
+.user-summaries .user-summary.waiting_for_gift { background-color: #5bc0de; }
+.user-summaries .user-summary.unavailable,
+.user-summaries .user-summary.no_gift_given { background-color: #f0ad4e; }
+.user-summaries .user-count { font-size: 2.5em; display: block; padding-bottom: 5px; line-height: 1em; }
+.user-summaries .user-playing-status { font-size: 1.25em; line-height: 1em; }
+.user-summaries .user-playing-status .csw-icon { font-size: 0.9em; top: 0; }
+.user-summaries a:hover { text-decoration: none; }
+.user-summaries .columns:last-child { float: left; }
+#countdown { font-size: 1em; font-weight: 300; display: inline-block; }
+#countdown .clock { font-size: 1.25em; }
+#until-text { font-size: 1.25em; margin: 0 0 1rem 0; display: inline-block; }
+ul.all_content { list-style: none; padding-left: 0; margin-left: 0; margin: 2rem 0 3rem 0; }
+ul.all_content li { margin-bottom: 4rem; }
+.csw-group-intro { margin-bottom: 3rem;}
+.csw-icon-giant { width:100%;font-size:7rem;overflow:visible;}
+.csw-font-green { color: #5cb85c !important; }
+@media (min-width: 768px) {
+	.csw-home-background { position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: url('../images/reindeer-sled-vintage-opt.jpg') no-repeat 0 0; background-size: cover; z-index: -1; }
+	body.csw-home .csw-content-header { position: fixed; top: 0; background: rgba(243,243,244,0); border: 0; }
+	.csw-home-hero { position: relative; height: 100vh; padding: 20vh 0 3rem 0;  }
+	.csw-home-hero h1 { background-color: rgba(200,0,0,0.4); font-size: 4rem; display: inline-block; }
+	.csw-home-hero h2 { background-color: rgba(52,144,52,0.4); font-size: 3rem; display: inline-block; }
+	.csw-home-hero p.csw-sub-assist { background-color: rgba(0,0,0,0.4); display: inline-block; font-size: 1.5rem; margin-top: 4rem; }
+	.csw-home-hero .csw-home-more { display: block; position: absolute; bottom: 0; width: 100%; text-align: center; color: #dd0000; opacity: 0.5; }
+	.csw-home-hero .csw-home-more .csw-icon-chevron-down { font-size: 3rem; line-height: 1.75rem; }
+	.csw-home-hero .csw-button { margin: 3rem 0; }
+  #countdown { font-size: 1.25em; }
+  #countdown .clock, #until-text { font-size: 1.5em; }
+}
